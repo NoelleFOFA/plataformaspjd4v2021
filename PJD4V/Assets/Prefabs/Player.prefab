@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 196104240}
   - component: {fileID: 196104242}
   - component: {fileID: 196104241}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: JetEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,7 +114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 552126090}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ShootOrigin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154,7 +154,7 @@ GameObject:
   - component: {fileID: 6342537170164503472}
   - component: {fileID: 1764268843}
   - component: {fileID: 1764268844}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -299,7 +299,7 @@ MonoBehaviour:
   jetpackForce: 800
   knockbackForce: 5
   knockbackTime: 0.5
-  immuneTime: 0.5
+  immuneTime: 1
   killMask:
     serializedVersion: 2
     m_Bits: 0
@@ -334,6 +334,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9e7406570fa224b65beed045b97f6443, type: 3}
   - {fileID: 8300000, guid: dffc4aefc56344cadb763ea94950c9ab, type: 3}
   - {fileID: 8300000, guid: d8d24bb17e0504f76a67a8565eb24ac1, type: 3}
+  - {fileID: 8300000, guid: b28ebe72f0ef442628cc1c3b6099af4c, type: 3}
+  - {fileID: 8300000, guid: 33abe346bf3514b9ab7bba8c99e3d4b4, type: 3}
+  - {fileID: 8300000, guid: acc7e8f06e2a341899d99bbe2ce199fa, type: 3}
   mixerGroups:
   - {fileID: 8699764655662338294, guid: 47801cd5ad6274298938f436b89092bc, type: 2}
   - {fileID: 7106883563200798964, guid: 47801cd5ad6274298938f436b89092bc, type: 2}
